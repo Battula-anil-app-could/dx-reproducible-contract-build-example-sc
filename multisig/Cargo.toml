@@ -1,0 +1,30 @@
+[package]
+name = "multisig"
+version = "0.0.0"
+authors = [ "you",]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/multisig.rs"
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+num-traits = "0.2"
+hex = "0.4"
+
+[dependencies.dharitri-sc]
+version = "0.0.1"
+
+[dependencies.dharitri-sc-modules]
+version = "0.0.1"
+
+[dev-dependencies.dharitri-sc-scenario]
+version = "0.0.1"
+
+[dev-dependencies.adder]
+
+[dev-dependencies.factorial]
+
+[dev-dependencies.dharitri-wmoax-swap-sc]
+version = "0.0.1"
